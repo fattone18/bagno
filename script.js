@@ -12,7 +12,7 @@ document.getElementById("differenza_date").innerHTML = diffDays;
 document.getElementById("differenza_date_settimane").innerHTML =  Math.floor(diffDays / 7);
 document.getElementById("tipo_settimana").innerHTML = weekType;
 
-var corridoio = document.getElementById('Deve pulire');
+var turno = document.getElementById('Deve pulire');
 
 var citazioni = [
         "Festim pulisci come se stesse per arrivare Paulina"
