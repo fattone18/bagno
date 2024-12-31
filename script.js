@@ -12,7 +12,7 @@ document.getElementById("differenza_date").innerHTML = diffDays;
 document.getElementById("differenza_date_settimane").innerHTML =  Math.floor(diffDays / 7);
 document.getElementById("tipo_settimana").innerHTML = weekType;
 
-var turno = document.getElementById('Deve pulire');
+var Pulisce = document.getElementById('Pulisce');
 
 var citazioni = [
         "Festim pulisci come se stesse per arrivare Paulina"
@@ -27,12 +27,12 @@ var p3 = new String("Festim");
 
 switch (weekType) {
         case 0:
-                document.getElementById("Deve pulire").innerHTML = p1;
+                document.getElementById("Pulisce").innerHTML = p1;
                 break;
         case 1:                
-                document.getElementById("Deve pulire").innerHTML = p2; 
+                document.getElementById("Pulisce").innerHTML = p2; 
                 break;
         case 2:
-                document.getElementById("Deve pulire").innerHTML = p3;
+                document.getElementById("Pulisce").innerHTML = p3;
                 break;
 }
