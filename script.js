@@ -4,7 +4,7 @@ refDate = new Date('04/04/2023'); // month day year
 diffTime = Math.abs(refDate - currentDate);
 diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-var weekType = Math.floor(diffDays / 7) % 7;
+var weekType = Math.floor(diffDays / 7) % 3;
 
 document.getElementById("data_oggi").innerHTML = currentDate;
 document.getElementById("data_ref").innerHTML = refDate;
