@@ -25,7 +25,7 @@ var citazioni = [
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
-var p1 = new String("Fabio");
+var p1 = new String("Filippo");
 var p2 = new String("Teresa");
 var p3 = new String("Festim");
 
