@@ -19,7 +19,7 @@ var pausa2 = document.getElementById('pausa2');
 var citazioni = [
         "Teresa pulisci da brava donna",
         "Fabio ottimo lavoro",
-        "Festim pulisci come se stesse per arrivare Paulina"
+        "Festim pulisci come se stesse per arrivare Paulina",
         "Ma funziona ancora questo sito?"
 ];
         
