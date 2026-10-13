@@ -20,13 +20,14 @@ var citazioni = [
         "Teresa pulisci da brava donna",
         "Fabio ottimo lavoro",
         "Festim pulisci come se stesse per arrivare Paulina"
+        "Ma funziona ancora questo sito?"
 ];
         
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
 var p1 = new String("Filippo");
-var p2 = new String("Teresa");
+var p2 = new String("Giorgia");
 var p3 = new String("Festim");
 
 switch (weekType) {
